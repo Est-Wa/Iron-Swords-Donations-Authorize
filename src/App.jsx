@@ -5,10 +5,6 @@ import HomePage from './HomePage';
 import { I18nextProvider, useTranslation } from 'react-i18next';
 import i18n from './I18n';
 
-
-
-
-
 const customTheme = createTheme({
   typography: {
     fontFamily: 'Rubik Dirt', // Use the chosen font here
