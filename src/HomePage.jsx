@@ -17,11 +17,10 @@ export default function Product() {
     <Layout
       sxBackground={{
         backgroundImage: `url(${backgroundImage})`,
-        backgroundColor: '#7fc7d9', // Average color of the background image.
+        backgroundColor: '#7fc7d9', 
         backgroundPosition: 'center',
       }}
     >
-      {/* Increase the network loading priority of the background image. */}
       <img
         style={{ display: 'none' }}
         src={backgroundImage}
@@ -35,7 +34,7 @@ export default function Product() {
         color="inherit"
         align="center"
         variant="h5"
-        sx={{ mb: 4, mt: { xs: 4, sm: 10 } }}
+        sx={{ mb: 4, mt: { xs: 4, sm: 5 } }}
       >
         {t('app.about')}
       </Typography>
