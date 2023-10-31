@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Button, Typography } from '@mui/material';
 import Layout from './BackgroundLayout';
-import backgroundImage from './images/israel-flag.jpg'
+import backgroundImage from './images/Background-flag.jpg'
 import Footer from './Footer.jsx';
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from './LanguageSelector';
@@ -43,7 +43,7 @@ export default function Product() {
         variant="contained"
         size="large"
         component="a"
-        href="https://forms.office.com/r/1QhKunhUhk?origin=lprLink"
+        href="https://forms.office.com/r/1QhKunhUhk"
         sx={{ minWidth: 200 ,
         backgroundColor: 'white',
       color:'#001651'}}
@@ -55,7 +55,7 @@ export default function Product() {
         variant="contained"
         size="large"
         component="a"
-        href="https://forms.office.com/r/vE69n0MUc6?origin=lprLink"
+        href="https://forms.office.com/r/vE69n0MUc6"
         sx={{ minWidth: 200 ,
         backgroundColor: 'white',
       color:'#001651',
