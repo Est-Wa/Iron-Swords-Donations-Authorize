@@ -9,7 +9,7 @@ const LayoutRoot = styled('section')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   [theme.breakpoints.up('sm')]: {
-    height: '80vh',
+    height: '88vh',
     minHeight: 500,
     maxHeight: 1300,
   },
@@ -38,7 +38,7 @@ export default function ProductLayout(
       <Container
         sx={{
           mt: 3,
-          mb: 14,
+          mb: 5,
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',

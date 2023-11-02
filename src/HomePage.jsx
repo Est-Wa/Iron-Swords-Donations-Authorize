@@ -34,10 +34,21 @@ export default function Product() {
         color="inherit"
         align="center"
         variant="h5"
-        sx={{ mb: 4, mt: { xs: 4, sm: 5 } }}
       >
         {t('app.about')}
       </Typography>
+      <Typography variant="body1"  align="center" >  
+      {t('app.text.rule1')}
+      <br/>
+      {t('app.text.rule2')}
+      <br/>
+      {t('app.text.rule3')}
+      <br/>
+      {t('app.text.rule4')}
+      </Typography>
+    <Typography variant="h6"  align="center" marginBottom={'2%'} >
+    {t('app.text.contact')} 
+    </Typography>
 
       <Button
         variant="contained"

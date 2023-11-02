@@ -1,8 +1,12 @@
 {
-    "app.title": "My App Title",
-    "app.about": "This is about the app",
-    "footer.text": "Your footer content goes here.",
-    "button.donate":"Donate",
-    "button.receive":"Receive"
-  }
-  
+  "app.title": "Information Security Center",
+  "app.about": "Security and Information Verification Center is established on a voluntary basis to infiltrate groups of irrelevant entities and prevent data leakage.",
+  "app.text.rule1": "Do not mention the specific locations of units, only use general terms like North / South / Center / Jerusalem is enough.",
+  "app.text.rule2": "Do not mention the names of units and the number of soldiers.",
+  "app.text.rule3": "Do not specify the type of activity, no matter what (completed a course / about to enter Gaza, etc.).",
+  "app.text.rule4": "In the hope of understanding.",
+  "app.text.contact": "For any questions and consultations, you can contact our security officer, Anat, at 0503404038.",
+  "footer.text": "For technical issues and support: example@gmail.com",
+  "button.donate": "We Donate",
+  "button.receive": "Request Supplies"
+}
